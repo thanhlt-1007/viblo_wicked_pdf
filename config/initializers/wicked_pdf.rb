@@ -17,7 +17,7 @@ WickedPdf.config = {
 
   # Layout file to be used for all PDFs
   # (but can be overridden in `render :pdf` calls)
-  # layout: 'pdf.html',
+  layout: "wicked_pdf_application.html.erb",
 
   # Using wkhtmltopdf without an X server can be achieved by enabling the
   # 'use_xvfb' flag. This will wrap all wkhtmltopdf commands around the
